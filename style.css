@@ -73,7 +73,7 @@ img {
 }
  @media (max-width:420px) {
     .row {
-        max-width: 420px;
+        width: 100%;
         margin-top: 0px;
         text-align: center;
     }
@@ -85,6 +85,10 @@ img {
     #lezioni .row img {
         width: 200px;
         height: 150px;
+    }
+    .container.grey {
+        margin: auto;
+        text-align: center;
     }
     #steps .row>.left,
     #steps .row>.central,
@@ -98,7 +102,7 @@ img {
     #why .row>.second,
     #why .row>.third {
         margin: auto;
-        width: 70%;
+        width: 80%;
     }
 
  }
