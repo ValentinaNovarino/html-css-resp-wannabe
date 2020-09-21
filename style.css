@@ -91,11 +91,14 @@ img {
     #steps .row>.right {
         float: none;
         margin: auto;
+        margin-bottom: 10px;
+        width: 80%;
     }
     #why .row>.first,
     #why .row>.second,
     #why .row>.third {
-        width: 50%;
-
+        margin: auto;
+        width: 70%;
     }
+
  }
